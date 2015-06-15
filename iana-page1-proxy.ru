@@ -1,5 +1,6 @@
 PREFIX iana: <http://www.iana.org/assignments/relation/>
 
 INSERT {
-  <> iana:prev </rest/objects/raven/orderProxies/page0Proxy>
-} WHERE { }
+  <> iana:prev </fcrepo/rest/objects/raven/members/page0Proxy>
+} WHERE {
+}

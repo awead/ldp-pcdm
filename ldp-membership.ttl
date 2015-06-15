@@ -3,6 +3,6 @@
 @prefix ore: <http://www.openarchives.org/ore/terms/>
 
 <> a ldp:IndirectContainer ;
-  ldp:membershipResource </fcrepo/rest/collections/poe/> ;
+  ldp:membershipResource </fcrepo/rest/objects/raven/> ;
   ldp:hasMemberRelation pcdm:hasMember ;
   ldp:insertedContentRelation ore:proxyFor .
