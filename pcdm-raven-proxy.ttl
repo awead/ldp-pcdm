@@ -1,5 +1,4 @@
-@prefix pcdm: <http://pcdm.org/models#>
 @prefix ore: <http://www.openarchives.org/ore/terms/>
 
-<> a pcdm:Object ;
-  ore:proxyFor </rest/objects/raven/> .
+<> ore:proxyFor </fcrepo/rest/objects/raven/> ;
+   ore:proxyIn </fcrepo/rest/collections/poe/> .

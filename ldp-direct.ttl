@@ -1,6 +1,6 @@
 @prefix ldp: <http://www.w3.org/ns/ldp#>
 @prefix pcdm: <http://pcdm.org/models#>
- 
-<> a ldp:DirectContainer, pcdm:Object ;
-  ldp:membershipResource </rest/objects/raven/> ;
+
+<> a ldp:DirectContainer ;
+  ldp:membershipResource </fcrepo/rest/objects/raven/> ;
   ldp:hasMemberRelation pcdm:hasMember .
